@@ -10,7 +10,7 @@ echo "Your email is" <a href="mailto: $email."></a>
 ​
 ​
 $major = htmlspecialchars($_POST["major"]);
-$comment = htmlspecialchars($_POST["text"])
+$comment = htmlspecialchars($_POST["text"]);
 ​
 echo "Your major is $major" . "<br>" . "Comments $comment" . "br>";
 ​
