@@ -23,7 +23,7 @@ session_start();
             <h2>So cheap, you're basically robbing us</h2>
             <p>Items in stock:</p>
             <form method="post">
-                <input class="button button2" type="submit" name="button1" value="Button1"/>
+                <input class="button button2" type="submit" name="button1" value="Add to cart"/>
                 <button class="button button2">Add to cart</button>DSLR Camera.....$100.00<br>
                 <button class="button button2">Add to cart</button>Jacket.....$50.00<br>
                 <button class="button button2">Add to cart</button>Water Bottle.....$10.00<br>
