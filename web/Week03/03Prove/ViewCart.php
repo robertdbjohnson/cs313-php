@@ -21,12 +21,13 @@ session_start();
 
         <div class="content">
             <h2>So cheap, you're basically robbing us</h2>
-            <p>Items:</p>
+            <p>Items in your shopping cart:</p>
             <button class="button button3">Remove from cart</button>DSLR Camera.....$100.00<br>
             <button class="button button3">Remove from cart</button>Jacket.....$50.00<br>
             <button class="button button3">Remove from cart</button>Water Bottle.....$10.00<br>
             <button class="button button3">Remove from cart</button>Sports Watch.....$15.00<br>
             <button class="button button3">Remove from cart</button>Laptop.....$250.00<br>
+            <button class="button button1">Checkout</button><br>
         </div>
 
         <div class="footer">
