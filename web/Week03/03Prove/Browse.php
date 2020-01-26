@@ -21,8 +21,9 @@ session_start();
 
         <div class="content">
             <h2>So cheap, you're basically robbing us</h2>
-            <p>Items:</p>
+            <p>Items in stock:</p>
             <form method="post">
+                <input class="button button2" type="submit" name="button1" value="Button1"/>
                 <button class="button button2">Add to cart</button>DSLR Camera.....$100.00<br>
                 <button class="button button2">Add to cart</button>Jacket.....$50.00<br>
                 <button class="button button2">Add to cart</button>Water Bottle.....$10.00<br>

@@ -26,7 +26,7 @@ session_start();
             <button class="button button3">Remove from cart</button>Jacket.....$50.00<br>
             <button class="button button3">Remove from cart</button>Water Bottle.....$10.00<br>
             <button class="button button3">Remove from cart</button>Sports Watch.....$15.00<br>
-            <button class="button button3">Remove from cart</button>Laptop.....$250.00<br>
+            <button class="button button3">Remove from cart</button>Laptop.....$250.00<br><br>
             <button class="button button1">Checkout</button><br>
         </div>
 
