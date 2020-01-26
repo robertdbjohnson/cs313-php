@@ -22,13 +22,22 @@ session_start();
         <div class="content">
             <h2>So cheap, you're basically robbing us</h2>
             <p>Items in stock:</p>
+
+            <?php
+                if(isset($_POST['button1'])) { 
+                echo "This is Button1 that is selected"; 
+                } 
+                if(isset($_POST['button2'])) { 
+                echo "This is Button2 that is selected"; 
+                } 
+            ?>
+
             <form method="post">
-                <input class="button button2" type="submit" name="button1" value="Add to cart"/>
-                <button class="button button2">Add to cart</button>DSLR Camera.....$100.00<br>
-                <button class="button button2">Add to cart</button>Jacket.....$50.00<br>
-                <button class="button button2">Add to cart</button>Water Bottle.....$10.00<br>
-                <button class="button button2">Add to cart</button>Sports Watch.....$15.00<br>
-                <button class="button button2">Add to cart</button>Laptop.....$250.00<br>
+                <input class="button button2" type="submit" name="camera" value="Add to cart"/>DSLR Camera.....$100.00<br>
+                <input class="button button2" type="submit" name="jacket" value="Add to cart"/>Jacket.....$50.00<br>
+                <input class="button button2" type="submit" name="bottle" value="Add to cart"/>Water Bottle.....$10.00<br>
+                <input class="button button2" type="submit" name="watch" value="Add to cart"/>Sports Watch.....$15.00<br>
+                <input class="button button2" type="submit" name="laptop" value="Add to cart"/>Laptop.....$250.00<br>
             </form>
         </div>
 
