@@ -17,8 +17,13 @@
         </div>
 
         <div class="content">
-            <h2>CSS Template</h2>
+            <h2>So cheat, you're basically robbing us</h2>
             <p>A topnav, content and a footer.</p>
+            <button class="button button1">Green</button>
+            <button class="button button2">Blue</button>
+            <button class="button button3">Red</button>
+            <button class="button button4">Gray</button>
+            <button class="button button5">Black</button>
         </div>
 
         <div class="footer">
