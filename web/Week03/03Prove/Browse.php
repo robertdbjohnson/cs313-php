@@ -16,7 +16,7 @@ session_start();
         <h1>RoberCo</h1>
         <div class="topnav">
             <a href="#">Browse Items</a>
-            <a href="#">View Cart</a>
+            <a href="https://desolate-fjord-07032.herokuapp.com/Week03/03Prove/ViewCart.php">View Cart</a>
         </div>
 
         <div class="content">
