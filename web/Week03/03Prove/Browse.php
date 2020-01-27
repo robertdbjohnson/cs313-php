@@ -24,12 +24,28 @@ session_start();
             <p>Items in stock:</p>
 
             <?php
-                if(isset($_POST['camera'])) { 
-                echo "This is Button1 that is selected"; 
-                } 
-                if(isset($_POST['jacket'])) { 
-                echo "This is Button2 that is selected"; 
-                } 
+            $_SESSION["camera"] = 0;
+            $_SESSION["jacket"] = 0;
+            $_SESSION["bottle"] = 0;
+            $_SESSION["watch"] = 0;
+            $_SESSION["laptop"] = 0;
+
+            if(isset($_POST['camera'])) { 
+            $_SESSION["camera"]++;
+            echo "$_SESSION["camera"]";
+            } 
+            if(isset($_POST['jacket'])) { 
+            $_SESSION["jacket"]++;
+            }
+            if(isset($_POST['bottle'])) { 
+            $_SESSION["bottle"]++;
+            }
+            if(isset($_POST['watch'])) { 
+            $_SESSION["watch"]++;
+            }
+            if(isset($_POST['laptop'])) { 
+            $_SESSION["laptop"]++;
+            }
             ?>
 
             <form method="post">
