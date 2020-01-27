@@ -32,19 +32,18 @@ session_start();
 
             if(isset($_POST['camera'])) { 
             $_SESSION["camera"] += 1;
-            echo $_SESSION["camera"];
             } 
             if(isset($_POST['jacket'])) { 
-            $_SESSION["jacket"] = 1;
+            $_SESSION["jacket"] += 1;
             }
             if(isset($_POST['bottle'])) { 
-            $_SESSION["bottle"] = 1;
+            $_SESSION["bottle"] += 1;
             }
             if(isset($_POST['watch'])) { 
-            $_SESSION["watch"] = 1;
+            $_SESSION["watch"] += 1;
             }
             if(isset($_POST['laptop'])) { 
-            $_SESSION["laptop"] = 1;
+            $_SESSION["laptop"] += 1;
             }
             ?>
 
