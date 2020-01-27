@@ -23,16 +23,16 @@ session_start();
             if(isset($_POST['camera']) & $_SESSION["camera"] > 0) { 
             $_SESSION["camera"] += -1;
             } 
-            if(isset($_POST['jacket'])) { 
+            if(isset($_POST['jacket']) & $_SESSION["jacket"] > 0) { 
             $_SESSION["jacket"] += -1;
             }
-            if(isset($_POST['bottle'])) { 
+            if(isset($_POST['bottle']) & $_SESSION["bottle"] > 0) { 
             $_SESSION["bottle"] += -1;
             }
-            if(isset($_POST['watch'])) { 
+            if(isset($_POST['watch']) & $_SESSION["watch"] > 0) { 
             $_SESSION["watch"] += -1;
             }
-            if(isset($_POST['laptop'])) { 
+            if(isset($_POST['laptop']) & $_SESSION["laptop"] > 0) { 
             $_SESSION["laptop"] += -1;
             }
         ?>
@@ -42,15 +42,15 @@ session_start();
             <p>Items in your shopping cart:</p>
 
             <form method="post">
-                <input class="button button2" type="submit" name="camera" value="Remove from cart"/>DSLR Camera.....$100.00
+                <input class="button button3" type="submit" name="camera" value="Remove from cart"/>DSLR Camera.....$100.00
                 <p>Quantity: <?php echo $_SESSION["camera"]; ?></p><hr>
-                <input class="button button2" type="submit" name="jacket" value="Remove from cart"/>Jacket.....$50.00
+                <input class="button button3" type="submit" name="jacket" value="Remove from cart"/>Jacket.....$50.00
                 <p>Quantity: <?php echo $_SESSION["jacket"]; ?></p><hr>
-                <input class="button button2" type="submit" name="bottle" value="Remove from cart"/>Water Bottle.....$10.00
+                <input class="button button3" type="submit" name="bottle" value="Remove from cart"/>Water Bottle.....$10.00
                 <p>Quantity: <?php echo $_SESSION["bottle"]; ?></p><hr>
-                <input class="button button2" type="submit" name="watch" value="Remove from cart"/>Sports Watch.....$15.00
+                <input class="button button3" type="submit" name="watch" value="Remove from cart"/>Sports Watch.....$15.00
                 <p>Quantity: <?php echo $_SESSION["watch"]; ?></p><hr>
-                <input class="button button2" type="submit" name="laptop" value="Remove from cart"/>Laptop.....$250.00
+                <input class="button button3" type="submit" name="laptop" value="Remove from cart"/>Laptop.....$250.00
                 <p>Quantity: <?php echo $_SESSION["laptop"]; ?></p><hr>
                 <p style="text-align:center;"><button class="button button1">Checkout</button></p>
             </form>
