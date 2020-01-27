@@ -32,7 +32,7 @@ session_start();
 
             if(isset($_POST['camera'])) { 
             $_SESSION["camera"]++;
-            echo "$_SESSION["camera"]";
+            echo $_SESSION["camera"];
             } 
             if(isset($_POST['jacket'])) { 
             $_SESSION["jacket"]++;
