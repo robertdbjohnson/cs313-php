@@ -31,7 +31,7 @@ session_start();
             $_SESSION["laptop"] = 0;
 
             if(isset($_POST['camera'])) { 
-            $_SESSION["camera"]++;
+            $_SESSION["camera"] += 1;
             echo $_SESSION["camera"];
             } 
             if(isset($_POST['jacket'])) { 
