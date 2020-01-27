@@ -23,8 +23,12 @@ session_start();
             <h2>So cheap, you're basically robbing us</h2>
             <p>Enter your address information:</p>
         
-            <form method="post">
-                
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+                Street: <input type="text" name="street"><br><br>
+                City: <input type="text" name="city"><br><br>
+                State: <input type="text" name="state"><br><br>
+                Zip: <input type="text" name="zip"><br><br>
+                <input type="submit" name="submit" value="Submit">
             </form>
         </div>
 
