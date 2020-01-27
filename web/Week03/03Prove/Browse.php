@@ -1,6 +1,11 @@
 <?php
 // Start the session
 session_start();
+$_SESSION["camera"] = 0;
+$_SESSION["jacket"] = 0;
+$_SESSION["bottle"] = 0;
+$_SESSION["watch"] = 0;
+$_SESSION["laptop"] = 0;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,27 +29,27 @@ session_start();
             <p>Items in stock:</p>
 
             <?php
-            $_SESSION["camera"] = 0;
-            $_SESSION["jacket"] = 0;
-            $_SESSION["bottle"] = 0;
-            $_SESSION["watch"] = 0;
-            $_SESSION["laptop"] = 0;
+            //$_SESSION["camera"] = 0;
+            //$_SESSION["jacket"] = 0;
+            //$_SESSION["bottle"] = 0;
+            //$_SESSION["watch"] = 0;
+            //$_SESSION["laptop"] = 0;
 
             if(isset($_POST['camera'])) { 
-            $_SESSION["camera"] += 2;
+            $_SESSION["camera"] += 1;
             echo $_SESSION["camera"];
             } 
             if(isset($_POST['jacket'])) { 
-            $_SESSION["jacket"]++;
+            $_SESSION["jacket"] = 1;
             }
             if(isset($_POST['bottle'])) { 
-            $_SESSION["bottle"]++;
+            $_SESSION["bottle"] = 1;
             }
             if(isset($_POST['watch'])) { 
-            $_SESSION["watch"]++;
+            $_SESSION["watch"] = 1;
             }
             if(isset($_POST['laptop'])) { 
-            $_SESSION["laptop"]++;
+            $_SESSION["laptop"] = 1;
             }
             ?>
 
