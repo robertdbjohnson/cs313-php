@@ -1,11 +1,6 @@
 <?php
 // Start the session
 session_start();
-$_SESSION["camera"] = 0;
-$_SESSION["jacket"] = 0;
-$_SESSION["bottle"] = 0;
-$_SESSION["watch"] = 0;
-$_SESSION["laptop"] = 0;
 ?>
 <!DOCTYPE html>
 <html lang="en">
