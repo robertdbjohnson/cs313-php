@@ -20,7 +20,7 @@ session_start();
         </div>
 
         <?php
-            if(isset($_POST['camera'])) { 
+            if(isset($_POST['camera']) & $_SESSION["camera"] > 0) { 
             $_SESSION["camera"] += -1;
             } 
             if(isset($_POST['jacket'])) { 
