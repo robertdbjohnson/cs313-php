@@ -53,14 +53,15 @@ session_start();
                 </p>
             </form>
             <?php
-            echo "<h2>Your Input:</h2>";
-            echo $street;
-            echo "<br>";
-            echo $city;
-            echo "<br>";
-            echo $state;
-            echo "<br>";
-            echo $zip;
+            echo "<h2>Your purchase has been complete!</h2>";
+            echo $_SESSION["camera"] . " camera(s) have been purchased<br>";
+            echo $_SESSION["jacket"] . " jacket(s) have been purchased<br>";
+            echo $_SESSION["bottle"] . " bottle(s) have been purchased<br>";
+            echo $_SESSION["watch"] . " watch(s) have been purchased<br>";
+            echo $_SESSION["laptop"] . " laptop(s) have been purchased<br><br>";
+            echo "Delivery sent to:<br>"
+            echo $street . "<br>";
+            echo $city . ", " . $state . " " . $zip;
             ?>
         </div>
 
