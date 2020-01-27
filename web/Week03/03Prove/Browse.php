@@ -24,12 +24,6 @@ session_start();
             <p>Items in stock:</p>
 
             <?php
-            //$_SESSION["camera"] = 0;
-            //$_SESSION["jacket"] = 0;
-            //$_SESSION["bottle"] = 0;
-            //$_SESSION["watch"] = 0;
-            //$_SESSION["laptop"] = 0;
-
             if(isset($_POST['camera'])) { 
             $_SESSION["camera"] += 1;
             } 

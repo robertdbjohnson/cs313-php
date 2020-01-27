@@ -19,6 +19,24 @@ session_start();
             <a href="#">View Cart</a>
         </div>
 
+        <?php
+            if(isset($_POST['camera'])) { 
+            $_SESSION["camera"] += -1;
+            } 
+            if(isset($_POST['jacket'])) { 
+            $_SESSION["jacket"] += -1;
+            }
+            if(isset($_POST['bottle'])) { 
+            $_SESSION["bottle"] += -1;
+            }
+            if(isset($_POST['watch'])) { 
+            $_SESSION["watch"] += -1;
+            }
+            if(isset($_POST['laptop'])) { 
+            $_SESSION["laptop"] += -1;
+            }
+        ?>
+
         <div class="content">
             <h2>So cheap, you're basically robbing us</h2>
             <p>Items in your shopping cart:</p>
