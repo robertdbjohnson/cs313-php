@@ -23,7 +23,7 @@ session_start();
             <h2>So cheap, you're basically robbing us</h2>
             <p>Items in your shopping cart:</p>
             <button class="button button3">Remove from cart</button>DSLR Camera.....$100.00
-            <p style="text-align:right;">Quantity: <?php echo $_SESSION["camera"]; ?></p><br><hr>
+            <p>Quantity: <?php echo $_SESSION["camera"]; ?></p><br><hr>
             <button class="button button3">Remove from cart</button>Jacket.....$50.00<br>
             <p style="text-align:right;">Quantity: <?php echo $_SESSION["jacket"]; ?></p><br><hr>
             <button class="button button3">Remove from cart</button>Water Bottle.....$10.00<br>
@@ -32,7 +32,7 @@ session_start();
             <p style="text-align:right;">Quantity: <?php echo $_SESSION["watch"]; ?></p><br><hr>
             <button class="button button3">Remove from cart</button>Laptop.....$250.00<br><br>
             <p style="text-align:right;">Quantity: <?php echo $_SESSION["laptop"]; ?></p><br><hr>
-            <button class="button button1">Checkout</button><br>
+            <button style="text-align:center;" class="button button1">Checkout</button><br>
         </div>
 
         <div class="footer">
