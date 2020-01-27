@@ -55,13 +55,13 @@ session_start();
             <?php
             echo "<h2>Your purchase has been complete!</h2>";
             echo $_SESSION["camera"] . " camera(s) have been purchased<br>";
-            echo $_SESSION["jacket"] . " jacket(s) have been purchased<br>";
-            echo $_SESSION["bottle"] . " bottle(s) have been purchased<br>";
-            echo $_SESSION["watch"] . " watch(s) have been purchased<br>";
-            echo $_SESSION["laptop"] . " laptop(s) have been purchased<br><br>";
-            echo "Delivery sent to:<br>"
-            echo $street . "<br>";
-            echo $city . ", " . $state . " " . $zip;
+            //echo $_SESSION["jacket"] . " jacket(s) have been purchased<br>";
+            //echo $_SESSION["bottle"] . " bottle(s) have been purchased<br>";
+            //echo $_SESSION["watch"] . " watch(s) have been purchased<br>";
+            //echo $_SESSION["laptop"] . " laptop(s) have been purchased<br><br>";
+            //echo "Delivery sent to:<br>"
+            //echo $street . "<br>";
+            //echo $city . ", " . $state . " " . $zip;
             ?>
         </div>
 
