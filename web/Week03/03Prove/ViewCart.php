@@ -22,17 +22,20 @@ session_start();
         <div class="content">
             <h2>So cheap, you're basically robbing us</h2>
             <p>Items in your shopping cart:</p>
-            <button class="button button3">Remove from cart</button>DSLR Camera.....$100.00
-            <p>Quantity: <?php echo $_SESSION["camera"]; ?></p><br><hr>
-            <button class="button button3">Remove from cart</button>Jacket.....$50.00<br>
-            <p>Quantity: <?php echo $_SESSION["jacket"]; ?></p><br><hr>
-            <button class="button button3">Remove from cart</button>Water Bottle.....$10.00<br>
-            <p>Quantity: <?php echo $_SESSION["bottle"]; ?></p><br><hr>
-            <button class="button button3">Remove from cart</button>Sports Watch.....$15.00<br>
-            <p>Quantity: <?php echo $_SESSION["watch"]; ?></p><br><hr>
-            <button class="button button3">Remove from cart</button>Laptop.....$250.00<br><br>
-            <p>Quantity: <?php echo $_SESSION["laptop"]; ?></p><br><hr>
-            <p style="text-align:center;"><button class="button button1">Checkout</button></p><br>
+
+            <form method="post">
+                <input class="button button2" type="submit" name="camera" value="Remove from cart"/>DSLR Camera.....$100.00
+                <p>Quantity: <?php echo $_SESSION["camera"]; ?></p><hr>
+                <input class="button button2" type="submit" name="jacket" value="Remove from cart"/>Jacket.....$50.00
+                <p>Quantity: <?php echo $_SESSION["jacket"]; ?></p><hr>
+                <input class="button button2" type="submit" name="bottle" value="Remove from cart"/>Water Bottle.....$10.00
+                <p>Quantity: <?php echo $_SESSION["bottle"]; ?></p><hr>
+                <input class="button button2" type="submit" name="watch" value="Remove from cart"/>Sports Watch.....$15.00
+                <p>Quantity: <?php echo $_SESSION["watch"]; ?></p><hr>
+                <input class="button button2" type="submit" name="laptop" value="Remove from cart"/>Laptop.....$250.00
+                <p>Quantity: <?php echo $_SESSION["laptop"]; ?></p><hr>
+                <p style="text-align:center;"><button class="button button1">Checkout</button></p>
+            </form>
         </div>
 
         <div class="footer">
