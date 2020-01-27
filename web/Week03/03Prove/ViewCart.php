@@ -52,8 +52,8 @@ session_start();
                 <p>Quantity: <?php echo $_SESSION["watch"]; ?></p><hr>
                 <input class="button button3" type="submit" name="laptop" value="Remove from cart"/>Laptop.....$250.00
                 <p>Quantity: <?php echo $_SESSION["laptop"]; ?></p><hr>
-                <p style="text-align:center;"><a href="https://desolate-fjord-07032.herokuapp.com/Week03/03Prove/Checkout.php"><button class="button button1">Checkout</button></a></p>
             </form>
+            <p style="text-align:center;"><a href="https://desolate-fjord-07032.herokuapp.com/Week03/03Prove/Checkout.php"><button class="button button1">Checkout</button></a></p>    
         </div>
 
         <div class="footer">
