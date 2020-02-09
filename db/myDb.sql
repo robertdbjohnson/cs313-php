@@ -1,18 +1,24 @@
 SELECT version();
 SELECT current_date;
 SELECT 2 + 2;
-CREATE TABLE weather (
-    city            varchar(80),
-    temp_lo         int,           -- low temperature
-    temp_hi         int,           -- high temperature
-    prcp            real,          -- precipitation
-    date            date
+
+CREATE TABLE appointments (
+    id          int,         -- this is a comment
+    firstname   varchar(80),    -- this is another comment
+    lastname    varchar(80),
+    email       varchar(80),
+    phone       int,
+    date        date,
+    time        time
 );
-CREATE TABLE cities (
-    name            varchar(80),
-    location        point
-);
-DROP TABLE tablename;
+
+INSERT INTO appointments (id, firstname, lastname, email, phone, date, time)
+    VALUES (1, 'Robert', 'Johnson', 'rj@gmail.com', 1112223333, '2020-12-20', '02:00:00');
+
+INSERT INTO appointments (id, firstname, lastname, email, phone, date, time)
+    VALUES (2, 'Joseph', 'Johnson', 'jj@gmail.com', 1112224444, '2020-09-07', '05:00:00');
+
+DROP TABLE tablename; -- drop weather and cities sometime
 INSERT INTO weather VALUES ('San Francisco', 46, 50, 0.25, '1994-11-27');
 INSERT INTO cities VALUES ('San Francisco', '(-194.0, 53.0)');
 INSERT INTO weather (city, temp_lo, temp_hi, prcp, date)
