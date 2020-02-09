@@ -7,7 +7,7 @@ session_start();
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Rober Co.</title>
+        <title>Robert Co.</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="PhotoProject.css">
@@ -22,40 +22,12 @@ session_start();
         </div>
 
         <div class="content">
-            <h2>So cheap, you're basically robbing us</h2>
-            <p>Items in stock:</p>
-
-            <?php
-            if(isset($_POST['camera'])) { 
-            $_SESSION["camera"] += 1;
-            } 
-            if(isset($_POST['jacket'])) { 
-            $_SESSION["jacket"] += 1;
-            }
-            if(isset($_POST['bottle'])) { 
-            $_SESSION["bottle"] += 1;
-            }
-            if(isset($_POST['watch'])) { 
-            $_SESSION["watch"] += 1;
-            }
-            if(isset($_POST['laptop'])) { 
-            $_SESSION["laptop"] += 1;
-            }
-            ?>
-
-            <form method="post">
-                <input class="button button2" type="submit" name="camera" value="Add to cart"/>DSLR Camera.....$100.00<br>
-                <input class="button button2" type="submit" name="jacket" value="Add to cart"/>Jacket.....$50.00<br>
-                <input class="button button2" type="submit" name="bottle" value="Add to cart"/>Water Bottle.....$10.00<br>
-                <input class="button button2" type="submit" name="watch" value="Add to cart"/>Sports Watch.....$15.00<br>
-                <input class="button button2" type="submit" name="laptop" value="Add to cart"/>Laptop.....$250.00<br>
-            </form>
+            <h2>Homepage</h2>
         </div>
 
         <div class="footer">
-            <p>2020 ROBER CORPORATION OF HIMSELF<br>
+            <p>2020 ROBERT CORPORATION OF HIMSELF<br>
             TERMS AND CONDITIONS  PRIVACY POLICY/YOUR TEXAS PRIVACY RIGHTS</p>
         </div>
-        <script src="" async defer></script>
     </body>
 </html>
