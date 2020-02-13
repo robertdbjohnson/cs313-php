@@ -29,6 +29,30 @@
     background-color: #ddd;
     color: black;
   }
+
+  * {
+    box-sizing: border-box;
+  }  
+
+ .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+ }
+  
+ .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+ h1 {
+    font-size: 75px;
+ }
+
+ img {
+    width: 100%;
+ }
   
   /* Style the content */
   .content {
@@ -93,27 +117,3 @@
   }
 
 /******************************************************/
-
-* {
-    box-sizing: border-box;
-  }  
-
- .img-container {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
- }
-  
- .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
- }
-
- img {
-    width: 100%;
- }
-
- h2 {
-    font-size: 200px;
- }
