@@ -22,7 +22,7 @@ session_start();
         </div>
 
         <div class="content">
-            <h2 style="font-size:100px">About Me</h2>
+            <h2>About Me</h2>
             <div class="clearfix">
                 <div class="img-container">
                     <img src="SkyDivingJump (2).jpg" alt="Jumping Picture after skydiving"> 
@@ -30,7 +30,9 @@ session_start();
                 <div class="img-container">
                     <img src="PicOfMe (3).jpg" alt="Picture of me">
                 </div>
-                
+                <div class="img-container">
+                    <img src="Filippino Flag (2).jpg" alt="Filippino Flag">
+                </div>
             </div>
         </div>
 
