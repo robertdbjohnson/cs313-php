@@ -38,7 +38,7 @@ session_start();
 
         <div class="footer">
             <p>2020 ROBERT CORPORATION OF HIMSELF<br>
-            TERMS AND CONDITIONS  PRIVACY POLICY/YOUR TEXAS PRIVACY RIGHTS</p>
+            TERMS AND CONDITIONS  PRIVACY POLICY/YOUR TEXAS PRIVACY RIGHTS IS THIS CRAP WORKING???</p>
         </div>
     </body>
 </html>
