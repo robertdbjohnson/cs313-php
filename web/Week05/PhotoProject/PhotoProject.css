@@ -34,14 +34,14 @@
   .content {
     background-color: #ddd;
     padding: 10px;
-    font-size: 100px;
+    
   }
   
   /* Style the footer */
   .footer {
     background-color: #f1f1f1;
     padding: 10px;
-    font-size: 10px;
+    font-size: 100px;
   }
 
   .button {
