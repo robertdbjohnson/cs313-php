@@ -33,7 +33,7 @@ session_start();
                 <div class="img-container">
                     <img src="Filippino Flag (2).jpg" alt="Filippino Flag">
                 </div>
-        </div>
+            </div>
         </div>
 
         <div class="footer">
