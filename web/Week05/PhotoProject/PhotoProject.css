@@ -96,24 +96,24 @@
 
 * {
     box-sizing: border-box;
-}  
+  }  
 
-.img-container {
+ .img-container {
     float: left;
     width: 33.33%;
     padding: 5px;
-}
+ }
   
-.clearfix::after {
+ .clearfix::after {
     content: "";
     clear: both;
     display: table;
-}
+ }
 
-img {
+ img {
     width: 100%;
-}
+ }
 
-h2 {
+ h2 {
     font-size: 200px;
-}
+ }
