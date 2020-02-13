@@ -18,11 +18,14 @@ session_start();
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Homepage.php">Homepage</a>
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Pictures.php">Pictures</a>
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/AboutMe.php">About Me</a>
-            <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Appointments.php">Make Appointment</a>
+            <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Appointments.php">Appointments</a>
         </div>
 
         <div class="content">
             <h2>About Me</h2>
+            <img src="SkyDivingJump (2).jpg" alt="Jumping Picture after skydiving">
+            <img src="PicOfMe (3).jpg" alt="Picture of me">
+            <img src="Filippino Flag (2).jpg" alt="Filippino Flag">
         </div>
 
         <div class="footer">

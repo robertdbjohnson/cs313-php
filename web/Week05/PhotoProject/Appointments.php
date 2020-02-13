@@ -18,11 +18,11 @@ session_start();
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Homepage.php">Homepage</a>
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Pictures.php">Pictures</a>
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/AboutMe.php">About Me</a>
-            <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Appointments.php">Make Appointment</a>
+            <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Appointments.php">Appointments</a>
         </div>
 
         <div class="content">
-            <h2>Make Appointments</h2>
+            <h2>Make Appointment</h2>
             <p>coming soon...</p>
 
             <h2>Current Appointments:</h2>
@@ -51,7 +51,7 @@ session_start();
 
                 /*********************************************************************************************/
 
-                foreach ($db->query('SELECT firstname, lastname FROM appointments') as $row)
+                foreach ($db->query('SELECT firstname, lastname,  FROM appointments') as $row)
                 {
                     echo 'First name: ' . $row['firstname'];
                     echo ' Last name: ' . $row['lastname'];
