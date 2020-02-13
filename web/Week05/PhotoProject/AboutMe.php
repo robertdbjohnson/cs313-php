@@ -25,14 +25,12 @@ session_start();
             <h2>About Me</h2>
             <div class="clearfix">
                 <div class="img-container">
-                    <img src="SkyDivingJump (2).jpg" alt="Jumping Picture after skydiving">
+                    <img src="SkyDivingJump (2).jpg" alt="Jumping Picture after skydiving"> 
                 </div>
                 <div class="img-container">
                     <img src="PicOfMe (3).jpg" alt="Picture of me">
                 </div>
-                <div class="img-container">
-                    <img src="Filippino Flag (2).jpg" alt="Filippino Flag">
-                </div>
+                
             </div>
         </div>
 
