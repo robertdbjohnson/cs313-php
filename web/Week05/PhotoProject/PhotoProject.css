@@ -91,3 +91,25 @@
     background-color: #f44336;
     color: white;
   }
+
+  /******************************************************/
+
+  * {
+    box-sizing: border-box;
+  }  
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    width: 100%;
+}
