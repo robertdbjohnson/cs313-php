@@ -22,7 +22,7 @@ session_start();
         </div>
 
         <div class="content">
-            <h1 style="font-size:70px">Behind The Camera</h1>
+            <h1 style="font-size:50px">Behind The Camera</h1>
             <div class="clearfix">
                 <div class="img-container">
                     <img src="SkyDivingJump (2).jpg" alt="Jumping Picture after skydiving"> 
@@ -35,7 +35,7 @@ session_start();
                 </div>
             </div>
             <div>
-                <h2 style="margin-left: 20em; margin-right: 20em;">Robert David  B. Johnson</h2>
+                <h2 style="align:center;">Robert David  B. Johnson</h2>
                 <p style="margin-left: 20em; margin-right: 20em;">I am currently a college student studing software engineering at Brigham Young University. Before studying in Idaho, I was born in the Philippines, but grow up in the Dallas, Texas area. 
                 Growing up my famlily has always been important to me and always will be. They have always been there for me and I hope I can always be there for them. I am a fan of 
                 video games, stock trading, staying active, photography, and so much more. I have only recently started getting into photography this year and I don't claim to be the best
