@@ -22,7 +22,7 @@ session_start();
         </div>
 
         <div class="content">
-            <h1>About Me</h1>
+            <h1>Behind The Camera</h1>
             <div class="clearfix">
                 <div class="img-container">
                     <img src="SkyDivingJump (2).jpg" alt="Jumping Picture after skydiving"> 
@@ -35,7 +35,8 @@ session_start();
                 </div>
             </div>
             <div>
-                <p style="margin-left: 15em; margin-right: 15em;">I am currently a college student studing software engineering at Brigham Young University. Before studying in Idaho, I was born in the Philippines, but grow up in the Dallas, Texas area. 
+                <h2>Robert David  B. Johnson</h2>
+                <p style="margin-left: 20em; margin-right: 20em;">I am currently a college student studing software engineering at Brigham Young University. Before studying in Idaho, I was born in the Philippines, but grow up in the Dallas, Texas area. 
                 Growing up my famlily has always been important to me and always will be. They have always been there for me and I hope I can always be there for them. I am a fan of 
                 video games, stock trading, staying active, photography, and so much more. I have only recently started getting into photography this year and I don't claim to be the best
                 photographer in the world and am in fact far from it. I love taking my camera out (her name is Sally) and taking pictures of fun things like landscapes, architecture, but especially people.
