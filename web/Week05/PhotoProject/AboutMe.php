@@ -35,7 +35,7 @@ session_start();
                 </div>
             </div>
             <div>
-                <p>I am currently a college student studing software engineering at Brigham Young University. Before studying in Idaho, I was born in the Philippines, but grow up in the Dallas, Texas area. 
+                <p style="margin-left: 5; margin-right: 5;">I am currently a college student studing software engineering at Brigham Young University. Before studying in Idaho, I was born in the Philippines, but grow up in the Dallas, Texas area. 
                 Growing up my famlily has always been important to me and always will be. They have always been there for me and I hope I can always be there for them. I am a fan of 
                 video games, stock trading, staying active, photography, and so much more. I have only recently started getting into photography this year and I don't claim to be the best
                 photographer in the world and am in fact far from it. I love taking my camera out (her name is Sally) and taking pictures of fun things like landscapes, architecture , but especially people.
