@@ -15,12 +15,12 @@ session_start();
             .container {
             position: relative;
             text-align: center;
-            color: black;
+            color: #333;
             }
 
             .top-right {
             position: absolute;
-            top: 100px;
+            top: 80px;
             right: 200px;
             font-size: 200px;
             }
