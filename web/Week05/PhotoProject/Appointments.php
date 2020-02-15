@@ -59,7 +59,7 @@ session_start();
                 /*********************************************************************************************/
 
                 $db->query("INSERT INTO appointments (firstname, lastname, email, phone, date, time)
-                VALUES ('Robert', 'Johnson', 'rj@gmail.com', 1112223333, '2020-12-20', '02:00:00')"); 
+                VALUES ('$_POST[first]', 'Johnson', 'rj@gmail.com', 1112223333, '2020-12-20', '02:00:00')"); 
 
                 /*********************************************************************************************/
                 echo '<div class="grid-container">
