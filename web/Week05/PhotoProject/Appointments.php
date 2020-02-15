@@ -52,11 +52,11 @@ session_start();
                 /*********************************************************************************************/
                 
                 echo '<div class="grid-container">
-                    <div class="grid-item">First Name</div>
-                    <div class="grid-item">Last Name</div>
-                    <div class="grid-item">Date</div>  
-                    <div class="grid-item">Time</div>    
-                </div>'
+                        <div class="grid-item">First Name</div>
+                        <div class="grid-item">Last Name</div>
+                        <div class="grid-item">Date</div>  
+                        <div class="grid-item">Time</div>    
+                    </div>';
 
                 foreach ($db->query('SELECT *  FROM appointments') as $row)
                 {
