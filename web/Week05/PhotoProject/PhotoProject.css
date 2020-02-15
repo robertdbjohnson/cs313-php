@@ -117,7 +117,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  background-color: black;
+  background-color: lightblue;
   padding: 10px;
 }
 .grid-item {
