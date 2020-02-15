@@ -57,7 +57,7 @@ session_start();
                         <div class="grid-item">Date</div>  
                         <div class="grid-item">Time</div>
                         <div class="grid-item">Email</div>
-                        <div class="grid-item">Phone</div>';
+                        <div class="grid-item">Phone</div><br>';
                 
                 foreach ($db->query('SELECT *  FROM appointments') as $row)
                 {
@@ -68,15 +68,7 @@ session_start();
                     echo '<div class="grid-item">' . $row['email'] . '</div>';
                     echo '<div class="grid-item">' . $row['phone'] . '</div>';
                 }
-
                 echo '</div>';
-
-                foreach ($db->query('SELECT *  FROM appointments') as $row)
-                {
-                    echo 'First name: ' . $row['firstname'];
-                    echo ' Last name: ' . $row['lastname'];
-                    echo '<br/>';
-                }
             ?>
         </div>
 
