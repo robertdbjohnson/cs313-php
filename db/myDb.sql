@@ -54,3 +54,9 @@ SELECT city FROM weather
 SELECT city, max(temp_lo)
     FROM weather
     GROUP BY city;
+
+
+CREATE TABLE appointments (
+    id          serial,         -- this is a comment
+    picture     
+);

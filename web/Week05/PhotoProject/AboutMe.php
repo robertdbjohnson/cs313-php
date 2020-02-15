@@ -45,7 +45,8 @@ session_start();
         </div>
 
         <div class="footer">
-            <p>2020 ROBERT CORPORATION OF HIMSELF<br>
+            <p>PHOTOCO<br>
+            2020 ROBERT CORPORATION OF HIMSELF<br>
             TERMS AND CONDITIONS  PRIVACY POLICY/YOUR TEXAS PRIVACY RIGHTS</p>
         </div>
     </body>

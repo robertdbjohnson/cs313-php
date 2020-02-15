@@ -13,7 +13,6 @@ session_start();
         <link rel="stylesheet" href="PhotoProject.css">
     </head>
     <body>
-        <h2>PhotoCo</h2>
         <div class="topnav">
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Homepage.php">Homepage</a>
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Pictures.php">Pictures</a>
@@ -73,7 +72,8 @@ session_start();
         </div>
 
         <div class="footer">
-            <p>2020 ROBERT CORPORATION OF HIMSELF<br>
+            <p>PHOTOCO<br>
+            2020 ROBERT CORPORATION OF HIMSELF<br>
             TERMS AND CONDITIONS  PRIVACY POLICY/YOUR TEXAS PRIVACY RIGHTS</p>
         </div>
     </body>
