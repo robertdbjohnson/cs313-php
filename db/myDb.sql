@@ -18,6 +18,8 @@ INSERT INTO appointments (id, firstname, lastname, email, phone, date, time)
 INSERT INTO appointments (id, firstname, lastname, email, phone, date, time)
     VALUES (2, 'Joseph', 'Johnson', 'jj@gmail.com', 1112224444, '2020-09-07', '05:00:00');
 
+SELECT * FROM appointments;
+
 DROP TABLE tablename; -- drop weather and cities sometime
 INSERT INTO weather VALUES ('San Francisco', 46, 50, 0.25, '1994-11-27');
 INSERT INTO cities VALUES ('San Francisco', '(-194.0, 53.0)');
@@ -26,7 +28,7 @@ INSERT INTO weather (city, temp_lo, temp_hi, prcp, date)
 INSERT INTO weather (date, city, temp_hi, temp_lo)
     VALUES ('1994-11-29', 'Hayward', 54, 37);
 COPY weather FROM '/home/user/weather.txt';
-SELECT * FROM weather;
+SELECT * FROM appointments;
 SELECT city, temp_lo, temp_hi, prcp, date FROM weather;
 SELECT city, (temp_hi+temp_lo)/2 AS temp_avg, date FROM weather;
 SELECT * FROM weather

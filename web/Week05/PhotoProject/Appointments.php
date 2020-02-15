@@ -51,7 +51,7 @@ session_start();
 
                 /*********************************************************************************************/
 
-                foreach ($db->query('SELECT firstname, lastname,  FROM appointments') as $row)
+                foreach ($db->query('SELECT *  FROM appointments') as $row)
                 {
                     echo 'First name: ' . $row['firstname'];
                     echo ' Last name: ' . $row['lastname'];
