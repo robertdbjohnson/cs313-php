@@ -32,14 +32,6 @@ session_start();
                 <input type="submit">
             </form>
 
-            <?php
-                $db = pg_connect("host=localhost port=5432 dbname=postgres user=postgres password=admin123");
-                $query = "INSERT INTO appointments VALUES (1, '$_POST[first]','$_POST[last]',
-                '$_POST[date]', 1112345676,'$_POST[email]',
-                '$_POST[phone]')";
-                $result = pg_query($query); 
-            ?>
-
             <h2>Current Appointments:</h2>
             <?php
                 try
@@ -63,6 +55,12 @@ session_start();
                   echo 'Error!: ' . $ex->getMessage();
                   die();
                 }
+
+                /*********************************************************************************************/
+
+                $db->query('INSERT INTO appointment (firstname, lastname, email, phone, date, time)
+                VALUE ('$_POST[first]','$_POST[last]', '$_POST[email]',
+                '$_POST[phone]','$_POST[date]','$_POST[time]')'); 
 
                 /*********************************************************************************************/
                 echo '<div class="grid-container">
