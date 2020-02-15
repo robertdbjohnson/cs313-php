@@ -22,7 +22,15 @@ session_start();
 
         <div class="content">
             <h2>Make Appointment</h2>
-            <p>coming soon...</p>
+            <form name="insert" acation="Appointments.php" method="POST">
+                First name:<input type="text" name="first"><br>
+                Last name:<input type="text" name="last"><br>
+                Date:<input type="text" name="date"><br>
+                Time:<input type="text" name="time"><br>
+                Email:<input type="text" name="email"><br>
+                Phone:<input type="text" name="phone"><br>
+                <input type="submit">
+            </form>
 
             <h2>Current Appointments:</h2>
             <?php
@@ -50,13 +58,18 @@ session_start();
 
                 /*********************************************************************************************/
                 
+                $query = "INSERT INTO appointments VALUES ('$_POST[first]','$_POST[last]',
+                '$_POST[date]','$_POST[time]','$_POST[email]',
+                '$_POST[phone]')";
+
+                /*********************************************************************************************/
                 echo '<div class="grid-container">
-                        <div class="grid-item">First Name</div>
-                        <div class="grid-item">Last Name</div>
-                        <div class="grid-item">Date</div>  
-                        <div class="grid-item">Time</div>
-                        <div class="grid-item">Email</div>
-                        <div class="grid-item">Phone</div>';
+                        <div class="grid-item"><b>First Name</b></div>
+                        <div class="grid-item"><b>Last Name</b></div>
+                        <div class="grid-item"><b>Date</b></div>  
+                        <div class="grid-item"><b>Time</b></div>
+                        <div class="grid-item"><b>Email</b></div>
+                        <div class="grid-item"><b>Phone</b></div>';
                 
                 foreach ($db->query('SELECT *  FROM appointments') as $row)
                 {

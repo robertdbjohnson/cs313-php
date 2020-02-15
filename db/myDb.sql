@@ -58,5 +58,5 @@ SELECT city, max(temp_lo)
 
 CREATE TABLE appointments (
     id          serial,         -- this is a comment
-    picture     
+    picture     bytea
 );
