@@ -20,13 +20,13 @@ session_start();
 
             .top-right {
             position: absolute;
-            top: 8px;
-            right: 16px;
+            top: 20px;
+            right: 30px;
+            font-size: 70px;
             }
         </style>
     </head>
     <body>
-        <h2>PhotoCo</h2>
         <div class="topnav">
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Homepage.php">Homepage</a>
             <a href="https://desolate-fjord-07032.herokuapp.com/Week05/PhotoProject/Pictures.php">Pictures</a>
