@@ -34,8 +34,8 @@ session_start();
 
             <?php
                 $db = pg_connect("host=localhost port=5432 dbname=postgres user=postgres password=admin123");
-                $query = "INSERT INTO appointments VALUES ('$_POST[first]','$_POST[last]',
-                '$_POST[date]','$_POST[time]','$_POST[email]',
+                $query = "INSERT INTO appointments VALUES (1, '$_POST[first]','$_POST[last]',
+                '$_POST[date]', 1112345676,'$_POST[email]',
                 '$_POST[phone]')";
                 $result = pg_query($query); 
             ?>
