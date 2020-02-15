@@ -15,14 +15,14 @@ session_start();
             .container {
             position: relative;
             text-align: center;
-            color: white;
+            color: black;
             }
 
             .top-right {
             position: absolute;
-            top: 40px;
-            right: 70px;
-            font-size: 100px;
+            top: 100px;
+            right: 200px;
+            font-size: 200px;
             }
         </style>
     </head>
