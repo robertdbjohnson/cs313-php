@@ -61,6 +61,7 @@ session_start();
                 $query = "INSERT INTO appointments VALUES ('$_POST[first]','$_POST[last]',
                 '$_POST[date]','$_POST[time]','$_POST[email]',
                 '$_POST[phone]')";
+                $result = pg_query($query);
 
                 /*********************************************************************************************/
                 echo '<div class="grid-container">
