@@ -21,8 +21,8 @@ session_start();
             .top-right {
             position: absolute;
             top: 30px;
-            right: 150px;
-            font-size: 200px;
+            right: 100px;
+            font-size: 170px;
             }
         </style>
     </head>
