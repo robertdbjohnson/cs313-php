@@ -20,9 +20,9 @@ session_start();
 
             .top-right {
             position: absolute;
-            top: 20px;
-            right: 30px;
-            font-size: 70px;
+            top: 40px;
+            right: 70px;
+            font-size: 100px;
             }
         </style>
     </head>
