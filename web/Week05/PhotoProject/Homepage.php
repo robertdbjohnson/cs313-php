@@ -20,7 +20,7 @@ session_start();
 
             .top-right {
             position: absolute;
-            top: 80px;
+            top: 30px;
             right: 200px;
             font-size: 200px;
             }
@@ -42,7 +42,8 @@ session_start();
         </div>
 
         <div class="footer">
-            <p>2020 ROBERT CORPORATION OF HIMSELF<br>
+            <p>PHOTOCO<br>
+            2020 ROBERT CORPORATION OF HIMSELF<br>
             TERMS AND CONDITIONS  PRIVACY POLICY/YOUR TEXAS PRIVACY RIGHTS</p>
         </div>
     </body>
