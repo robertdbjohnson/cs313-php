@@ -57,8 +57,19 @@ session_start();
                         <div class="grid-item">Date</div>  
                         <div class="grid-item">Time</div>
                         <div class="grid-item">Email</div>
-                        <div class="grid-item">Phone</div>    
-                    </div>';
+                        <div class="grid-item">Phone</div>';
+                
+                foreach ($db->query('SELECT *  FROM appointments') as $row)
+                {
+                    echo '<div class="grid-item">' . $row['firstname'] . '</div>';
+                    echo '<div class="grid-item">' . $row['lastname'] . '</div>';
+                    echo '<div class="grid-item">' . $row['date'] . '</div>';
+                    echo '<div class="grid-item">' . $row['time'] . '</div>';
+                    echo '<div class="grid-item">' . $row['email'] . '</div>';
+                    echo '<div class="grid-item">' . $row['phone'] . '</div>';
+                }
+
+                echo '</div>';
 
                 foreach ($db->query('SELECT *  FROM appointments') as $row)
                 {
