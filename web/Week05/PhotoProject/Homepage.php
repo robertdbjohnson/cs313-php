@@ -11,6 +11,19 @@ session_start();
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="PhotoProject.css">
+        <style>
+            .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            }
+
+            .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            }
+        </style>
     </head>
     <body>
         <h2>PhotoCo</h2>
@@ -22,7 +35,10 @@ session_start();
         </div>
 
         <div class="content">
-            <img src="Homepage.JPG" alt="Northern Border of AZ">
+            <div class="container">
+                <img src="Homepage.JPG" alt="Northern Border of AZ" style="width:100%;">
+                <div class="top-right">PhotoCo</div>
+            </div>
         </div>
 
         <div class="footer">
