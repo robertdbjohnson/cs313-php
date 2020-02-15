@@ -22,7 +22,7 @@ session_start();
         </div>
 
         <div class="content">
-            <h2>Homepage</h2>
+            <img src="Homepage.JPG" alt="Northern Border of AZ">
         </div>
 
         <div class="footer">

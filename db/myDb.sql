@@ -15,8 +15,8 @@ CREATE TABLE appointments (
 INSERT INTO appointments (id, firstname, lastname, email, phone, date, time)
     VALUES (1, 'Robert', 'Johnson', 'rj@gmail.com', 1112223333, '2020-12-20', '02:00:00');
 
-INSERT INTO appointments (id, firstname, lastname, email, phone, date, time)
-    VALUES (2, 'Joseph', 'Johnson', 'jj@gmail.com', 1112224444, '2020-09-07', '05:00:00');
+INSERT INTO appointments (firstname, lastname, email, phone, date, time)
+    VALUES ('Henry', 'Louis', 'hl@gmail.com', 1115559064, '2020-03-10', '08:30:00');
 
 SELECT * FROM appointments;
 
