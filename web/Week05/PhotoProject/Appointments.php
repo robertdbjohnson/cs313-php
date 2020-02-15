@@ -55,7 +55,9 @@ session_start();
                         <div class="grid-item">First Name</div>
                         <div class="grid-item">Last Name</div>
                         <div class="grid-item">Date</div>  
-                        <div class="grid-item">Time</div>    
+                        <div class="grid-item">Time</div>
+                        <div class="grid-item">Email</div>
+                        <div class="grid-item">Phone</div>    
                     </div>';
 
                 foreach ($db->query('SELECT *  FROM appointments') as $row)
