@@ -21,7 +21,7 @@ session_start();
         </div>
 
         <div class="content">
-            <h1 style="font-size:50px">Behind The Camera</h1>
+            <h1 style="font-size:30px">Behind The Camera</h1>
             <div class="clearfix">
                 <div class="img-container">
                     <img src="SkyDivingJump (2).jpg" alt="Jumping Picture after skydiving"> 

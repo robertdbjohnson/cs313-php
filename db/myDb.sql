@@ -3,20 +3,20 @@ SELECT current_date;
 SELECT 2 + 2;
 
 CREATE TABLE appointments (
-    id          int,         -- this is a comment
+    id          serial,         -- this is a comment
     firstname   varchar(80),    -- this is another comment
     lastname    varchar(80),
     email       varchar(80),
-    phone       int,
-    date        date,
-    time        time
+    phone       varchar(80),
+    date        varchar(80),
+    time        varchar(80)
 );
 
 INSERT INTO appointments (id, firstname, lastname, email, phone, date, time)
-    VALUES (1, 'Robert', 'Johnson', 'rj@gmail.com', 1112223333, '2020-12-20', '02:00:00');
+    VALUES (1, 'Robert', 'Johnson', 'rj@gmail.com', '111-222-3333', 'Jan 20, 2020', '2:00pm');
 
 INSERT INTO appointments (firstname, lastname, email, phone, date, time)
-    VALUES ('Henry', 'Louis', 'hl@gmail.com', 1115559064, '2020-03-10', '08:30:00');
+    VALUES ('Henry', 'Louis', 'hl@gmail.com', '111-555-9064', 'Mar 9, 2020', '8:30pm');
 
 SELECT * FROM appointments;
 
