@@ -22,7 +22,7 @@ session_start();
 
         <div class="content">
             <h2>Make Appointment</h2>
-            <form name="insert" acation="Appointments.php" method="POST">
+            <form name="insert" action="Insert.php" method="POST">
                 First name: <input type="text" name="first"><br>
                 Last name: <input type="text" name="last"><br>
                 Date: <input type="text" name="date"><br>
@@ -57,9 +57,7 @@ session_start();
                 }
 
                 /*********************************************************************************************/
-
-                $db->query("INSERT INTO appointments (firstname, lastname, email, phone, date, time)
-                VALUES ('$_POST[first]', '$_POST[last]', '$_POST[email]', 1112223333, '2020-12-20', '02:00:00')"); 
+ 
 
                 /*********************************************************************************************/
                 echo '<div class="grid-container">
