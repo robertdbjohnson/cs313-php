@@ -53,7 +53,7 @@ session_start();
                     <img src="SnowAtPorter.JPG" alt="Filippino Flag">
                 </div><br>
 
-                <img src="NorthernAZBorderThin.JPG" alt="Filippino Flag">
+                <img src="NorthernAZBorderThin.jpg" alt="Filippino Flag">
 
                 <div class="img-container">
                     <img src="PinkFlower.JPG" alt="Jumping Picture after skydiving"> 
