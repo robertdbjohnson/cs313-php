@@ -40,7 +40,7 @@ session_start();
                     <img src="Sunset.JPG" alt="Picture of me">
                 </div>
                 <div class="img-container">
-                    <img src="PinkFlower.JPG" alt="Filippino Flag">
+                    <img src="LizzieTakingAPic.JPG" alt="Filippino Flag">
                 </div><br>
 
                 <div class="img-container">
@@ -56,7 +56,7 @@ session_start();
                 <img src="NorthernAZBorder.JPG" alt="Filippino Flag">
 
                 <div class="img-container">
-                    <img src="LizzieTakingAPic.JPG" alt="Jumping Picture after skydiving"> 
+                    <img src="PinkFlower.JPG" alt="Jumping Picture after skydiving"> 
                 </div>
                 <div class="img-container">
                     <img src="Cliffside.JPG" alt="Picture of me">
