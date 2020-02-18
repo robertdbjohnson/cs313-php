@@ -37,10 +37,20 @@ session_start();
                     <img src="SnowAtGardens.JPG" alt="Jumping Picture after skydiving"> 
                 </div>
                 <div class="img-container">
-                    <img src="PinkFlower.JPG" alt="Picture of me">
+                    <img src="Sunset.JPG" alt="Picture of me">
                 </div>
                 <div class="img-container">
-                    <img src="Sunset.JPG" alt="Filippino Flag">
+                    <img src="PinkFlower.JPG" alt="Filippino Flag">
+                </div><br>
+
+                <div class="img-container">
+                    <img src="TwoDucksInPond.JPG" alt="Jumping Picture after skydiving"> 
+                </div>
+                <div class="img-container">
+                    <img src="YellowFlowers.JPG" alt="Picture of me">
+                </div>
+                <div class="img-container">
+                    <img src="SnowAtPorter.JPG" alt="Filippino Flag">
                 </div><br>
             </div>
         </div>
