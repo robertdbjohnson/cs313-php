@@ -31,7 +31,17 @@ session_start();
                 </div>
                 <div class="img-container">
                     <img src="RexburgTemple.JPG" alt="Filippino Flag">
+                </div><br>
+
+                <div class="img-container">
+                    <img src="SnowAtGardens.JPG" alt="Jumping Picture after skydiving"> 
                 </div>
+                <div class="img-container">
+                    <img src="PinkFlower.JPG" alt="Picture of me">
+                </div>
+                <div class="img-container">
+                    <img src="Sunset.JPG" alt="Filippino Flag">
+                </div><br>
             </div>
         </div>
 
