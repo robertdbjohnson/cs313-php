@@ -22,6 +22,17 @@ session_start();
 
         <div class="content">
             <h2>Pictures</h2>
+            <div class="clearfix">
+                <div class="img-container">
+                    <img src="BluryPinkFlower.JPG" alt="Jumping Picture after skydiving"> 
+                </div>
+                <div class="img-container">
+                    <img src="JackOLantern.jpg" alt="Picture of me">
+                </div>
+                <div class="img-container">
+                    <img src="RexburgTemple.JPG" alt="Filippino Flag">
+                </div>
+            </div>
         </div>
 
         <div class="footer">
