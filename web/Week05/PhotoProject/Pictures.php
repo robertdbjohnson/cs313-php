@@ -56,13 +56,13 @@ session_start();
                 <img src="NorthernAZBorderThin.jpg" alt="Filippino Flag">
 
                 <div class="img-container">
-                    <img src="PinkFlower.JPG" alt="Jumping Picture after skydiving"> 
+                    <img src="BlackAndWhiteLizzie.JPG" alt="Jumping Picture after skydiving"> 
                 </div>
                 <div class="img-container">
                     <img src="Cliffside.JPG" alt="Picture of me">
                 </div>
                 <div class="img-container">
-                    <img src="BlackAndWhiteLizzie.JPG" alt="Filippino Flag">
+                    <img src="PinkFlower.JPG" alt="Filippino Flag">
                 </div><br>
             </div>
         </div>
