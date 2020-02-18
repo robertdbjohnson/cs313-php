@@ -27,7 +27,7 @@ session_start();
                     <img src="BluryPinkFlower.JPG" alt="Jumping Picture after skydiving"> 
                 </div>
                 <div class="img-container">
-                    <img src="JackOLantern.jpg" alt="Picture of me">
+                    <img src="JackOLantern2.jpg" alt="Picture of me">
                 </div>
                 <div class="img-container">
                     <img src="RexburgTemple.JPG" alt="Filippino Flag">
