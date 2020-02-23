@@ -22,7 +22,7 @@
     }
 
     $db->query("DELETE FROM appointments
-    WHERE firstname = '$_POST[first]' AND lastname = '$_POST[last]' AND date = '$_POST[date]' AND time = $_POST[time];");
+    WHERE firstname = '$_POST[first]' AND lastname = '$_POST[last]' AND date = '$_POST[date]' AND time = '$_POST[time]';");
 
     header("Location: Appointments.php");
     die();
