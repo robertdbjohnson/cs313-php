@@ -20,6 +20,9 @@ INSERT INTO appointments (firstname, lastname, email, phone, date, time)
 
 SELECT * FROM appointments;
 
+DELETE FROM appointments
+WHERE firstname = 'John' AND lastname = 'Doe';
+
 DROP TABLE tablename; -- drop weather and cities sometime
 INSERT INTO weather VALUES ('San Francisco', 46, 50, 0.25, '1994-11-27');
 INSERT INTO cities VALUES ('San Francisco', '(-194.0, 53.0)');
@@ -56,7 +59,7 @@ SELECT city, max(temp_lo)
     GROUP BY city;
 
 
-CREATE TABLE appointments (
+CREATE TABLE pictures (
     id          serial,         -- this is a comment
     picture     bytea
 );

@@ -76,6 +76,15 @@ session_start();
                 }
                 echo '</div>';
             ?>
+
+            <h2>Delete Appointment</h2>
+            <form name="delete" action="Delete.php" method="POST">
+                First name: <input type="text" name="first"><br>
+                Last name: <input type="text" name="last"><br>
+                Date: <input type="text" name="date"><br>
+                Time: <input type="text" name="time"><br>
+                <input type="submit">
+            </form>
         </div>
 
         <div class="footer">
