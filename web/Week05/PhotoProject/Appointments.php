@@ -83,7 +83,7 @@ session_start();
                 Last name: <input type="text" name="last"><br>
                 Date: <input type="text" name="date"><br>
                 Time: <input type="text" name="time"><br>
-                <input type="submit">
+                <input type="submit" value="Delete">
             </form>
         </div>
 
